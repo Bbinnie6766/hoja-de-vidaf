@@ -9,6 +9,7 @@ body {
   background-color: #b4b4b4da;
 }
 
+/* cabecera */
 .mimgmedusas {
   width: 100%;
   height: 50vh;
@@ -80,19 +81,21 @@ body {
   position: relative;
   top: 45px;
 }
-.titulo-seccion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 80%;
-    font-size: 24px;
-    font-style: bold;
-    color: #094b53;
+/* titulo */
+.titulo-seccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  font-size: 24px;
+  font-style: bold;
+  color: #094b53;
 }
+
 /* contenidos */
-.contenidos{
+.contenidos {
   width: 100%;
   height: 100vh;
   justify-content: center;
@@ -100,6 +103,7 @@ body {
   flex-wrap: wrap;
   display: flex;
 }
+
 /* educación */
 .seccion-educacion {
   display: flex;
@@ -144,7 +148,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
+/* titulo */
 h4 {
   font-size: 18px;
   color: #094b53;
@@ -166,10 +170,10 @@ h4 {
 .seccion-idiomas {
   width: 80%;
   display: flex;
-  flex-direction: row;       
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;                
+  gap: 20px;
 }
 
 /* Contenedor de idiomas */
@@ -183,7 +187,7 @@ h4 {
   justify-content: center;
   justify-content: space-around;
   position: relative;
- }
+}
 
 /* Contenido individual de cada idioma */
 .idioma {
@@ -227,11 +231,12 @@ progress::-webkit-progress-bar {
 .texto-redes-sociales {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   font-size: 16px;
   font-weight: bold;
   color: #094b53;
 }
+
 .icono-redes-sociales {
   width: 24px;
   height: 24px;
